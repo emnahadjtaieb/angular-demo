@@ -7,7 +7,7 @@ import { PostDetailsComponent } from './pages/post-details/post-details.componen
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '/posts', pathMatch: 'full' },
+  { path: '', component: PostComponent },
   { path: 'posts', component: PostComponent },
   { path: 'post/:id', component: PostDetailsComponent },
   { path: 'news', component: NewsComponent },

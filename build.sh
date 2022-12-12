@@ -9,3 +9,4 @@ sed -i 's/polyfills/angular-demo\/polyfills/g' docs/index.html
 sed -i 's/scripts/angular-demo\/scripts/g' docs/index.html
 sed -i 's/main/angular-demo\/main/g' docs/index.html
 sed -i 's/styles\./angular-demo\/styles\./g' docs/index.html
+sed -i 's/favicon/angular-demo\/favicon/g' docs/index.html
