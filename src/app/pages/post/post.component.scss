@@ -1,0 +1,18 @@
+.lay-post {
+    position: relative;
+
+    >.link {
+        height: 70px;
+
+        >.btn-add {
+            background-color: #08288b;
+            border: 2px solid #08288b;
+            cursor: pointer;
+            padding: 12px 20px;
+            border-radius: 5px;
+            color: #fff;
+            position: absolute;
+            right: 5px;
+        }
+    }
+}
